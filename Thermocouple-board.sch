@@ -14450,8 +14450,8 @@ Tyco Electronics</description>
 <part name="U40" library="adafruit" deviceset="LP298X" device="S"/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="FB1" library="microbuilder" deviceset="FERRITE" device="_0805" value="Ferrite"/>
 <part name="FB2" library="microbuilder" deviceset="FERRITE" device="_0805" value="Ferrite"/>
@@ -14583,6 +14583,7 @@ Tyco Electronics</description>
 <part name="C30" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="0.1uF"/>
 <part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
+<part name="U$3" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.0"/>
 </parts>
 <sheets>
 <sheet>
@@ -14634,11 +14635,11 @@ Tyco Electronics</description>
 <instance part="GND7" gate="1" x="-22.86" y="27.94" smashed="yes">
 <attribute name="VALUE" x="-25.4" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="35.56" y="-7.62" smashed="yes" rot="R270">
+<instance part="R2" gate="G$1" x="35.56" y="-7.62" smashed="yes" rot="R270">
 <attribute name="NAME" x="37.0586" y="-3.81" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="32.258" y="-3.81" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R2" gate="G$1" x="35.56" y="22.86" smashed="yes" rot="R270">
+<instance part="R1" gate="G$1" x="35.56" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="37.0586" y="26.67" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="32.258" y="26.67" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -14756,8 +14757,8 @@ Tyco Electronics</description>
 <instance part="+3V16" gate="G$1" x="93.98" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="91.44" y="-10.16" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND11" gate="1" x="96.52" y="-73.66" smashed="yes">
-<attribute name="VALUE" x="93.98" y="-76.2" size="1.778" layer="96"/>
+<instance part="GND11" gate="1" x="88.9" y="-73.66" smashed="yes">
+<attribute name="VALUE" x="86.36" y="-76.2" size="1.778" layer="96"/>
 </instance>
 <instance part="Q2" gate="G$1" x="71.12" y="-27.94" smashed="yes">
 <attribute name="NAME" x="68.58" y="-24.384" size="1.778" layer="95"/>
@@ -14794,9 +14795,9 @@ Tyco Electronics</description>
 <instance part="+3V17" gate="G$1" x="218.44" y="-63.5" smashed="yes">
 <attribute name="VALUE" x="215.9" y="-68.58" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R8" gate="G$1" x="96.52" y="-63.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="98.0186" y="-59.69" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="93.218" y="-59.69" size="1.778" layer="96" rot="R270"/>
+<instance part="R8" gate="G$1" x="88.9" y="-63.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="90.3986" y="-59.69" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="85.598" y="-59.69" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND16" gate="1" x="101.6" y="15.24" smashed="yes">
 <attribute name="VALUE" x="99.06" y="12.7" size="1.778" layer="96"/>
@@ -15089,6 +15090,7 @@ Tyco Electronics</description>
 <instance part="GND33" gate="1" x="243.84" y="5.08" smashed="yes">
 <attribute name="VALUE" x="241.3" y="2.54" size="1.778" layer="96"/>
 </instance>
+<instance part="U$3" gate="G$1" x="71.12" y="121.92" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -15152,11 +15154,11 @@ Tyco Electronics</description>
 <segment>
 <wire x1="101.6" y1="-68.58" x2="99.06" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="96.52" y1="-68.58" x2="96.52" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-68.58" x2="88.9" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-66.04" x2="99.06" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-66.04" x2="99.06" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="-68.58" x2="96.52" y2="-68.58" width="0.1524" layer="91"/>
-<junction x="96.52" y="-68.58"/>
+<wire x1="99.06" y1="-68.58" x2="88.9" y2="-68.58" width="0.1524" layer="91"/>
+<junction x="88.9" y="-68.58"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <junction x="99.06" y="-68.58"/>
 <pinref part="U1" gate="G$1" pin="VSS2"/>
@@ -15330,7 +15332,7 @@ Tyco Electronics</description>
 <net name="SPI_CS0" class="0">
 <segment>
 <pinref part="U10" gate="G$1" pin="/CS"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <label x="55.88" y="12.7" size="1.778" layer="95"/>
 <wire x1="33.02" y1="12.7" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="12.7" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
@@ -15361,7 +15363,7 @@ Tyco Electronics</description>
 </segment>
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="30.48" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15378,7 +15380,7 @@ Tyco Electronics</description>
 </segment>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="0" x2="35.56" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15730,7 +15732,7 @@ Tyco Electronics</description>
 <wire x1="33.02" y1="-17.78" x2="35.56" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-17.78" x2="55.88" y2="-17.78" width="0.1524" layer="91"/>
 <label x="48.26" y="-17.78" size="1.778" layer="95"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="-12.7" x2="35.56" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="35.56" y="-17.78"/>
 </segment>
@@ -15802,11 +15804,12 @@ Tyco Electronics</description>
 <pinref part="U1" gate="G$1" pin="PF1/OSC_OUT"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="BOOT0" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="-58.42" x2="96.52" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-58.42" x2="88.9" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="BOOT0"/>
+<label x="91.44" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MCO" class="0">
