@@ -15797,13 +15797,6 @@ Tyco Electronics</description>
 <pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$20" class="0">
-<segment>
-<wire x1="101.6" y1="-27.94" x2="93.98" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="U1" gate="G$1" pin="PF1/OSC_OUT"/>
-</segment>
-</net>
 <net name="BOOT0" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -15885,12 +15878,8 @@ Tyco Electronics</description>
 <wire x1="43.18" y1="-50.8" x2="43.18" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-76.2" x2="33.02" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="43.18" y="-50.8"/>
-<wire x1="43.18" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
 <label x="55.88" y="10.16" size="1.778" layer="95"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="17.78" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
-<junction x="48.26" y="10.16"/>
-<wire x1="48.26" y1="10.16" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="10.16" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI_MISO" class="0">
@@ -15913,9 +15902,13 @@ Tyco Electronics</description>
 <wire x1="40.64" y1="-45.72" x2="40.64" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-71.12" x2="33.02" y2="-71.12" width="0.1524" layer="91"/>
 <junction x="40.64" y="-45.72"/>
-<wire x1="40.64" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="15.24" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
 <junction x="40.64" y="15.24"/>
 <label x="55.88" y="15.24" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="17.78" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
+<junction x="48.26" y="15.24"/>
 </segment>
 </net>
 <net name="PORT1_P" class="0">
@@ -16037,13 +16030,6 @@ Tyco Electronics</description>
 <pinref part="JP1" gate="A" pin="5"/>
 <wire x1="149.86" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
 <label x="160.02" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PF0/OSC_IN"/>
-<wire x1="93.98" y1="-20.32" x2="101.6" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$31" class="0">
