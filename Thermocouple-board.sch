@@ -9337,7 +9337,11 @@ Tyco Electronics</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.2032" drill="0">
+<clearance class="0" value="0.2032"/>
+</class>
+<class number="1" name="pwr_gnd" width="0.8128" drill="0">
+<clearance class="1" value="0.254"/>
 </class>
 </classes>
 <parts>
@@ -10252,7 +10256,7 @@ Tyco Electronics</description>
 <wire x1="86.36" y1="-38.1" x2="86.36" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SPI_CS0" class="0">
+<net name="SPI_CS0_N" class="0">
 <segment>
 <pinref part="U10" gate="G$1" pin="/CS"/>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -10657,7 +10661,7 @@ Tyco Electronics</description>
 <pinref part="C6" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="SPI_CS1" class="0">
+<net name="SPI_CS1_N" class="0">
 <segment>
 <pinref part="U11" gate="G$1" pin="/CS"/>
 <wire x1="33.02" y1="-17.78" x2="35.56" y2="-17.78" width="0.1524" layer="91"/>
@@ -10673,7 +10677,7 @@ Tyco Electronics</description>
 <pinref part="U1" gate="G$1" pin="PB1"/>
 </segment>
 </net>
-<net name="SPI_CS2" class="0">
+<net name="SPI_CS2_N" class="0">
 <segment>
 <pinref part="U12" gate="G$1" pin="/CS"/>
 <wire x1="33.02" y1="-48.26" x2="35.56" y2="-48.26" width="0.1524" layer="91"/>
@@ -10689,7 +10693,7 @@ Tyco Electronics</description>
 <pinref part="U1" gate="G$1" pin="SPI1_SCK/PB3"/>
 </segment>
 </net>
-<net name="SPI_CS3" class="0">
+<net name="SPI_CS3_N" class="0">
 <segment>
 <pinref part="U13" gate="G$1" pin="/CS"/>
 <wire x1="33.02" y1="-73.66" x2="35.56" y2="-73.66" width="0.1524" layer="91"/>
