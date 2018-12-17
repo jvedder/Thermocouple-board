@@ -1,15 +1,13 @@
-
 # 4-channel Thermocouple PCB 
+## Eagle CAD Schematic and PCB Layout
 
-## #Eagle CAD Schematic and PCB Layout
-
-This design has 4 copies of the MAX31855 thermocouple managed by an STm32F0042K4 (or K6) 
+This design has 4 copies of the **MAX31855** thermocouple managed by an **STM32F042K4** (or K6) 
 ARM Cortex-M0 processor.  Primary communication is RS-485 over Cat 5 UTP Ethernet cables 
 with a POE-like power scheme (5V to 12V). Both full and half-duplex communication are supported.
 
 Secondary communication is over USB, allowing an instance of this board (perhaps without the MAX31855 populated) to be the RS-485 master or a monitor of both the up-link and down-link (concurrently on separate UARTs). 
 
-The MAX31885 analog filter and connector design was copied from the Adafruit MAX31855 breakout board via the license below. Their support of open-source hardware is appreciated.
+A portion of this design was leveraged from the **_Adafruit Thermocouple Amplifier MAX31855 breakout board_**. See license below. Adafruit's support of open-source hardware is appreciated.
 
 ----------------------
 
