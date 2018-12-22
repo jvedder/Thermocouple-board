@@ -11679,6 +11679,21 @@ Diode with low voltage drop</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,5.08,7.62,U10,VCC,+3V3,,,"/>
+<approved hash="104,1,5.08,-22.86,U11,VCC,+3V3,,,"/>
+<approved hash="104,1,5.08,-53.34,U12,VCC,+3V3,,,"/>
+<approved hash="104,1,5.08,-78.74,U13,VCC,+3V3,,,"/>
+<approved hash="104,1,104.14,43.18,U20,VSS,GND,,,"/>
+<approved hash="104,1,129.54,50.8,U20,VCC,+3V3,,,"/>
+<approved hash="104,1,104.14,22.86,U21,VSS,GND,,,"/>
+<approved hash="104,1,129.54,30.48,U21,VCC,+3V3,,,"/>
+<approved hash="206,1,33.02,15.24,SPI_MISO,,,,,"/>
+<approved hash="206,1,33.02,-15.24,SPI_MISO,,,,,"/>
+<approved hash="206,1,33.02,-45.72,SPI_MISO,,,,,"/>
+<approved hash="206,1,33.02,-71.12,SPI_MISO,,,,,"/>
+<approved hash="106,1,149.86,83.82,SWO,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
