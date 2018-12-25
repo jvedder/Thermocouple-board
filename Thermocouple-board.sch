@@ -5240,6 +5240,26 @@ by exp-lbrs.ulp</description>
 <text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="MTG_HOLE_C280_H125">
+<description>MOUNTING HOLE, 0.280" dia pad, 0.125" dia hole, for #4-40 cap screw and nut</description>
+<circle x="0" y="0" radius="4.318" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="2.159" width="4.318" layer="39"/>
+<circle x="0" y="0" radius="2.159" width="4.318" layer="40"/>
+<circle x="0" y="0" radius="2.159" width="4.318" layer="41"/>
+<circle x="0" y="0" radius="2.159" width="4.318" layer="42"/>
+<circle x="0" y="0" radius="2.159" width="4.318" layer="43"/>
+<pad name="1" x="0" y="0" drill="3.175" diameter="7.112"/>
+</package>
+<package name="MTG_HOLE_C350_H150">
+<description>MOUNTING HOLE, 0.350" dia pad, 0.150" dia hole, for #6-32 cap screw and nut</description>
+<circle x="0" y="0" radius="5.207" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="2.2352" width="4.445" layer="39"/>
+<circle x="0" y="0" radius="2.2352" width="4.445" layer="40"/>
+<circle x="0" y="0" radius="2.2352" width="4.445" layer="41"/>
+<circle x="0" y="0" radius="2.2352" width="4.445" layer="42"/>
+<circle x="0" y="0" radius="2.2352" width="4.445" layer="43"/>
+<pad name="1" x="0" y="0" drill="3.81" diameter="8.89"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1X2">
@@ -5369,6 +5389,12 @@ by exp-lbrs.ulp</description>
 <pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
 <text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MTG_HOLE">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="3.81" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5649,6 +5675,23 @@ by exp-lbrs.ulp</description>
 </technologies>
 </device>
 <device name="76MIL" package="1X03_ROUND_76">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MTG_HOLE" prefix="MH">
+<gates>
+<gate name="G$1" symbol="MTG_HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_4-40" package="MTG_HOLE_C280_H125">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_6-32" package="MTG_HOLE_C350_H150">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -9968,6 +10011,12 @@ Diode with low voltage drop</description>
 <part name="J7" library="Thermocouple-board" deviceset="HEADER-1X2" device=""/>
 <part name="J6" library="Thermocouple-board" deviceset="HEADER-1X3" device=""/>
 <part name="C42" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
+<part name="MH1" library="Thermocouple-board" deviceset="MTG_HOLE" device="_4-40" value="4-40"/>
+<part name="MH2" library="Thermocouple-board" deviceset="MTG_HOLE" device="_4-40" value="4-40"/>
+<part name="MH3" library="Thermocouple-board" deviceset="MTG_HOLE" device="_4-40" value="4-40"/>
+<part name="MH4" library="Thermocouple-board" deviceset="MTG_HOLE" device="_4-40" value="4-40"/>
+<part name="U$3" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.0"/>
+<part name="U$6" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.0"/>
 </parts>
 <sheets>
 <sheet>
@@ -9993,9 +10042,9 @@ Diode with low voltage drop</description>
 7. DC-
 8. DC-</text>
 <text x="-43.18" y="101.6" size="1.778" layer="91">ETHERNET</text>
-<text x="147.32" y="147.32" size="1.778" layer="91">PWR ONLY</text>
 <text x="73.66" y="127" size="1.778" layer="91">MTG HOLES</text>
 <text x="40.64" y="132.08" size="1.778" layer="91">POWER SELECT</text>
+<text x="-25.4" y="132.08" size="1.778" layer="91">CENTER POSITIVE</text>
 </plain>
 <instances>
 <instance part="U10" gate="G$1" x="17.78" y="17.78" smashed="yes">
@@ -10489,6 +10538,24 @@ Diode with low voltage drop</description>
 <attribute name="NAME" x="28.956" y="43.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="28.956" y="38.989" size="1.778" layer="96"/>
 </instance>
+<instance part="MH1" gate="G$1" x="88.9" y="121.92" smashed="yes">
+<attribute name="NAME" x="86.36" y="125.73" size="1.27" layer="95"/>
+<attribute name="VALUE" x="86.36" y="116.84" size="1.27" layer="96"/>
+</instance>
+<instance part="MH2" gate="G$1" x="96.52" y="121.92" smashed="yes">
+<attribute name="NAME" x="93.98" y="125.73" size="1.27" layer="95"/>
+<attribute name="VALUE" x="93.98" y="116.84" size="1.27" layer="96"/>
+</instance>
+<instance part="MH3" gate="G$1" x="104.14" y="121.92" smashed="yes">
+<attribute name="NAME" x="101.6" y="125.73" size="1.27" layer="95"/>
+<attribute name="VALUE" x="101.6" y="116.84" size="1.27" layer="96"/>
+</instance>
+<instance part="MH4" gate="G$1" x="111.76" y="121.92" smashed="yes">
+<attribute name="NAME" x="109.22" y="125.73" size="1.27" layer="95"/>
+<attribute name="VALUE" x="109.22" y="116.84" size="1.27" layer="96"/>
+</instance>
+<instance part="U$3" gate="G$1" x="76.2" y="111.76" smashed="yes"/>
+<instance part="U$6" gate="G$1" x="81.28" y="111.76" smashed="yes"/>
 </instances>
 <busses>
 </busses>

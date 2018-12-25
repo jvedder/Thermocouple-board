@@ -1,0 +1,84 @@
+Partlist
+
+Exported from Thermocouple-board.sch at 12/22/18 8:45 PM
+
+EAGLE Version 9.2.2 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device               Package          Library                 Sheet
+
+C1       0.1uF          C-USC0805K           C0805K           adafruit                1
+C2       0.1uF          C-USC0805K           C0805K           adafruit                1
+C3       0.01uF         C-USC0805K           C0805K           adafruit                1
+C4       0.01uF         C-USC0805K           C0805K           adafruit                1
+C5       0.01uF         C-USC0805K           C0805K           adafruit                1
+C6       0.01uF         C-USC0805K           C0805K           adafruit                1
+C7       0.1uF          C-USC0805K           C0805K           adafruit                1
+C9       0.1uF          C-USC0805K           C0805K           adafruit                1
+C10      0.1uF          C-USC0805K           C0805K           adafruit                1
+C13      0.1uF          C-USC0805K           C0805K           adafruit                1
+C14      0.1uF          C-USC0805K           C0805K           adafruit                1
+C15      0.1uF          C-USC0805K           C0805K           adafruit                1
+C16      0.1uF          C-USC0805K           C0805K           adafruit                1
+C17      0.1uF          C-USC0805K           C0805K           adafruit                1
+C20      0.1uF          C-USC0805K           C0805K           adafruit                1
+C21      0.1uF          C-USC0805K           C0805K           adafruit                1
+C30      0.1uF          C-USC0805K           C0805K           adafruit                1
+C31      0.1uF          C-USC0805K           C0805K           adafruit                1
+C40      1uF            C-USC0805K           C0805K           adafruit                1
+C41      10uF           C-USC0805K           C0805K           adafruit                1
+C42      10uF           C-USC0805K           C0805K           adafruit                1
+D1       GREEN          LED-GREEN0603        LED-0603         SparkFun-LED            1
+D2       RED            LED-RED0603          LED-0603         SparkFun-LED            1
+D3       3A/40V/500mV   DIODE-SCHOTTKY-B340A SMA-DIODE        SparkFun-DiscreteSemi   1
+FB1      Ferrite        FERRITE_0805         _0805            microbuilder            1
+FB2      Ferrite        FERRITE_0805         _0805            microbuilder            1
+FB3      Ferrite        FERRITE_0805         _0805            microbuilder            1
+FB4      Ferrite        FERRITE_0805         _0805            microbuilder            1
+FB5      Ferrite        FERRITE_0805         _0805            microbuilder            1
+FB6      Ferrite        FERRITE_0805         _0805            microbuilder            1
+FB7      Ferrite        FERRITE_0805         _0805            microbuilder            1
+FB8      Ferrite        FERRITE_0805         _0805            microbuilder            1
+J1       RJ45           RJ45-8               RJ45-8           SparkFun-Connectors     1
+J2       RJ45           RJ45-8               RJ45-8           SparkFun-Connectors     1
+J3       1981584-1      1981584-1            1981584-1        audio amplifier example 1
+J4       2.1MMJACKTHM   2.1MMJACKTHM         PJ-102A          adafruit                1
+J5       ST-LINK        HEADER-1X6           1X06_OVAL        Thermocouple-board      1
+J6       HEADER-1X3     HEADER-1X3           1X03_OVAL        Thermocouple-board      1
+J7       HEADER-1X2     HEADER-1X2           1X02_OVAL        Thermocouple-board      1
+J11      1X2-3.5MM      1X2-3.5MM            1X2-3.5MM        Thermocouple-board      1
+J12      1X2-3.5MM      1X2-3.5MM            1X2-3.5MM        Thermocouple-board      1
+J13      1X2-3.5MM      1X2-3.5MM            1X2-3.5MM        Thermocouple-board      1
+J14      1X2-3.5MM      1X2-3.5MM            1X2-3.5MM        Thermocouple-board      1
+R1       10K            R-US_R0805           R0805            adafruit                1
+R2       10K            R-US_R0805           R0805            adafruit                1
+R3       10K            R-US_R0805           R0805            adafruit                1
+R4       10K            R-US_R0805           R0805            adafruit                1
+R5       10K            R-US_R0805           R0805            adafruit                1
+R6       10K            R-US_R0805           R0805            adafruit                1
+R7       10K            R-US_R0805           R0805            adafruit                1
+R8       10K            R-US_R0805           R0805            adafruit                1
+R9       10K            R-US_R0805           R0805            adafruit                1
+R10      10K            R-US_R0805           R0805            adafruit                1
+R11      470            R-US_R0805           R0805            adafruit                1
+R12      470            R-US_R0805           R0805            adafruit                1
+R13      10K            R-US_R0805           R0805            adafruit                1
+R14      10K            R-US_R0805           R0805            adafruit                1
+R15      10K            R-US_R0805           R0805            adafruit                1
+R16      10K            R-US_R0805           R0805            adafruit                1
+R18      10K            R-US_R0805           R0805            adafruit                1
+R19      10K            R-US_R0805           R0805            adafruit                1
+SW1      PUSHBUTTON     PUSHBUTTON           PUSHBUTTON_6X6MM Thermocouple-board      1
+SW2      PUSHBUTTON     PUSHBUTTON           PUSHBUTTON_6X6MM Thermocouple-board      1
+U1       STM32F042K4    STM32F042K4_V01      TQFP32-0.8MM     Thermocouple-board      1
+U10      MAX31855       MAX6675              SO08             adafruit                1
+U11      MAX31855       MAX6675              SO08             adafruit                1
+U12      MAX31855       MAX6675              SO08             adafruit                1
+U13      MAX31855       MAX6675              SO08             adafruit                1
+U20      EEPROM-I2C     EEPROM-I2C           SO08             Thermocouple-board      1
+U21      EEPROM-I2C     EEPROM-I2C           SO08             Thermocouple-board      1
+U30      ST3485         RS485SOIC            SO08             SparkFun-IC-Comms       1
+U31      ST3485         RS485SOIC            SO08             SparkFun-IC-Comms       1
+U40      LP298XS        LP298XS              SOT23-5L         adafruit                1
+X1       NX3225GD       NX3225GD             NX3225-2P        Thermocouple-board      1
