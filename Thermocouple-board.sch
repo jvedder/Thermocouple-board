@@ -10068,6 +10068,13 @@ DIN A3, landscape with location and doc. field</description>
 POWER ADAPTER</text>
 <text x="53.34" y="63.5" size="1.778" layer="91">POE</text>
 <text x="53.34" y="57.404" size="1.778" layer="91">USB</text>
+<text x="256.032" y="-69.596" size="1.778" layer="91">FTDI CABLE
+GND
+(CTS)
+VCC
+TXD
+RXD
+(RTS)</text>
 </plain>
 <instances>
 <instance part="U10" gate="G$1" x="15.24" y="2.54" smashed="yes">
