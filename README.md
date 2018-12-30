@@ -1,19 +1,28 @@
-# 4-channel Thermocouple PCB 
+# 4-channel Thermocouple PCB (MAX31855)
 ## Eagle CAD Schematic and PCB Layout
+### Part Number PCB100 Rev A 
 
-This design has 4 copies of the **MAX31855** thermocouple managed by an **STM32F042K4** (or K6) 
-ARM Cortex-M0 processor.  Primary communication is RS-485 over Cat 5 UTP Ethernet cables 
-with a POE-like power scheme (5V to 12V). Both full and half-duplex communication are supported.
+This design has 4 channels of **MAX31855** thermocouple amplifiers managed by 
+an **STM32F042K4** (or **'K6**) ARM Cortex-M0 processor.  Primary communication
+is RS-485 over Cat 5 UTP Ethernet cables with a POE-like power scheme (in the 
+range of 5V to 12V). Both full and half-duplex communication schemes are 
+supported.
 
-Secondary communication is over USB, allowing an instance of this board (perhaps without the MAX31855 populated) to be the RS-485 master or a monitor of both the up-link and down-link (concurrently on separate UARTs). 
+Secondary communication is over an FTDI 232-TTL USB-to-UART cable.  Direct 
+communiction over USB to the STM32 is also supported. Each allow an instance
+of this board (perhaps without the MAX31855 populated) to be the RS-485 master
+and provide POE-like power from a 2x5.5 mm power connector. 
 
-A portion of this design was leveraged from the **_Adafruit Thermocouple Amplifier MAX31855 breakout board_**. See license below. Adafruit's support of open-source hardware is appreciated.
+A portion of this design was leveraged from the 
+**_Adafruit Thermocouple Amplifier MAX31855 breakout board_**. 
+See license copied below. Adafruit's support of open-source hardware is appreciated.
 
 ----------------------
 
 Adafruit MAX31885 Thermocouple Amp breakout
 
 These are the Eagle CAD files for the Adafruit MAX31885 Thermocouple Amp breakout:
+
   ----> http://www.adafruit.com/products/269
 
 Adafruit invests time and resources providing this open source design, please support Adafruit and open-source hardware by purchasing products from Adafruit!
