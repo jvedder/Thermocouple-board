@@ -5149,14 +5149,14 @@ by exp-lbrs.ulp</description>
 <text x="-6.35" y="10.795" size="1.778" layer="95">&gt;NAME</text>
 <text x="-6.35" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="STM32F042K4_V01">
+<symbol name="STM32F042K4_V02">
 <wire x1="-25.4" y1="30.48" x2="25.4" y2="30.48" width="0.254" layer="94"/>
 <wire x1="25.4" y1="30.48" x2="25.4" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-35.56" x2="-25.4" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="-25.4" y1="-35.56" x2="-25.4" y2="30.48" width="0.254" layer="94"/>
 <text x="-22.86" y="31.75" size="1.778" layer="95">&gt;NAME</text>
 <text x="-22.86" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="I2C1_SCL/PA9" x="30.48" y="5.08" length="middle" rot="R180"/>
+<pin name="UART1_TX/PA9" x="30.48" y="5.08" length="middle" rot="R180"/>
 <pin name="VSS2" x="-30.48" y="-33.02" length="middle"/>
 <pin name="VDD1" x="-30.48" y="27.94" length="middle"/>
 <pin name="VDDIO" x="-30.48" y="25.4" length="middle"/>
@@ -5178,11 +5178,11 @@ by exp-lbrs.ulp</description>
 <pin name="SWDIO/PA13" x="30.48" y="-5.08" length="middle" rot="R180"/>
 <pin name="USB_DP/PA12" x="30.48" y="-2.54" length="middle" rot="R180"/>
 <pin name="USB_DM/PA11" x="30.48" y="0" length="middle" rot="R180"/>
-<pin name="I2C_SDA/PA10" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="UART1_RX/PA10" x="30.48" y="2.54" length="middle" rot="R180"/>
 <pin name="SPI1_MISO/PB4" x="30.48" y="-22.86" length="middle" rot="R180"/>
-<pin name="UART1_TX/PB6" x="30.48" y="-27.94" length="middle" rot="R180"/>
+<pin name="I2C1_SCL/PB6" x="30.48" y="-27.94" length="middle" rot="R180"/>
 <pin name="SPI1_MOSI/PB5" x="30.48" y="-25.4" length="middle" rot="R180"/>
-<pin name="UART1_RX/PB7" x="30.48" y="-30.48" length="middle" rot="R180"/>
+<pin name="I2C1_SDA/PB7" x="30.48" y="-30.48" length="middle" rot="R180"/>
 <pin name="NRST" x="-30.48" y="-12.7" length="middle" function="dot"/>
 <pin name="PF1/OSC_OUT" x="-30.48" y="10.16" length="middle"/>
 <pin name="BOOT0/PB8" x="30.48" y="-33.02" length="middle" rot="R180"/>
@@ -5388,17 +5388,17 @@ by exp-lbrs.ulp</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F042K4_V01" prefix="U" uservalue="yes">
+<deviceset name="STM32F042K4_V02" prefix="U" uservalue="yes">
 <description>STM32F030K6, Cortex-M0, 32K Flash, 4K SRAM, 48MHz, LQFP32 0.8mm</description>
 <gates>
-<gate name="G$1" symbol="STM32F042K4_V01" x="0" y="0"/>
+<gate name="G$1" symbol="STM32F042K4_V02" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TQFP32-0.8MM">
 <connects>
 <connect gate="G$1" pin="BOOT0/PB8" pad="31"/>
-<connect gate="G$1" pin="I2C1_SCL/PA9" pad="19"/>
-<connect gate="G$1" pin="I2C_SDA/PA10" pad="20"/>
+<connect gate="G$1" pin="I2C1_SCL/PB6" pad="29"/>
+<connect gate="G$1" pin="I2C1_SDA/PB7" pad="30"/>
 <connect gate="G$1" pin="NRST" pad="4"/>
 <connect gate="G$1" pin="PA15" pad="25"/>
 <connect gate="G$1" pin="PA4" pad="10"/>
@@ -5415,8 +5415,8 @@ by exp-lbrs.ulp</description>
 <connect gate="G$1" pin="SPI1_SCK/PB3" pad="26"/>
 <connect gate="G$1" pin="SWCLK/PA14" pad="24"/>
 <connect gate="G$1" pin="SWDIO/PA13" pad="23"/>
-<connect gate="G$1" pin="UART1_RX/PB7" pad="30"/>
-<connect gate="G$1" pin="UART1_TX/PB6" pad="29"/>
+<connect gate="G$1" pin="UART1_RX/PA10" pad="20"/>
+<connect gate="G$1" pin="UART1_TX/PA9" pad="19"/>
 <connect gate="G$1" pin="UART2_CTS/PA0" pad="6"/>
 <connect gate="G$1" pin="UART2_RTS/PA1" pad="7"/>
 <connect gate="G$1" pin="UART2_RX/PA3" pad="9"/>
@@ -10064,7 +10064,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C30" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="0.1uF"/>
 <part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
-<part name="U1" library="Thermocouple-board" deviceset="STM32F042K4_V01" device="" value="STM32F042K4"/>
+<part name="U1" library="Thermocouple-board" deviceset="STM32F042K4_V02" device="" value="STM32F042K6"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="R32" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
@@ -10726,16 +10726,13 @@ RXD
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="U10" gate="G$1" pin="GND"/>
-<pinref part="U10" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="U11" gate="G$1" pin="GND"/>
-<pinref part="U11" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="U12" gate="G$1" pin="GND"/>
 <pinref part="U12" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -11016,7 +11013,6 @@ RXD
 <segment>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <pinref part="U10" gate="G$1" pin="VCC"/>
-<pinref part="U10" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="7.62" y1="53.34" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
@@ -11041,11 +11037,9 @@ RXD
 <segment>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <pinref part="U11" gate="G$1" pin="VCC"/>
-<pinref part="U11" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
-<pinref part="U12" gate="G$1" pin="VCC"/>
 <pinref part="U12" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
@@ -11459,8 +11453,8 @@ RXD
 <junction x="147.32" y="45.72"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="UART1_TX/PB6"/>
-<wire x1="215.7476" y1="-63.5" x2="182.88" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="I2C1_SCL/PB6"/>
+<wire x1="203.0476" y1="-63.5" x2="182.88" y2="-63.5" width="0.1524" layer="91"/>
 <label x="187.96" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -11480,8 +11474,8 @@ RXD
 <junction x="157.48" y="43.18"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="UART1_RX/PB7"/>
-<wire x1="182.88" y1="-66.04" x2="215.7476" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="I2C1_SDA/PB7"/>
+<wire x1="182.88" y1="-66.04" x2="203.0476" y2="-66.04" width="0.1524" layer="91"/>
 <label x="187.96" y="-66.04" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -11853,13 +11847,13 @@ RXD
 <wire x1="241.3" y1="-66.04" x2="243.84" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="J7" gate="A" pin="4"/>
 <wire x1="243.84" y1="-63.5" x2="251.46" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="216.0524" y1="-66.04" x2="233.68" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="218.5924" y1="-66.04" x2="233.68" y2="-66.04" width="0.1524" layer="91"/>
 <label x="218.44" y="-66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="182.88" y1="-33.02" x2="203.2" y2="-33.02" width="0.1524" layer="91"/>
 <label x="187.96" y="-33.02" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="I2C_SDA/PA10"/>
+<pinref part="U1" gate="G$1" pin="UART1_RX/PA10"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11918,13 +11912,13 @@ RXD
 <wire x1="241.3" y1="-63.5" x2="243.84" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="J7" gate="A" pin="5"/>
 <wire x1="243.84" y1="-66.04" x2="251.46" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="-63.5" x2="216.0524" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-63.5" x2="218.5924" y2="-63.5" width="0.1524" layer="91"/>
 <label x="218.44" y="-63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="182.88" y1="-30.48" x2="203.2" y2="-30.48" width="0.1524" layer="91"/>
 <label x="187.96" y="-30.48" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="I2C1_SCL/PA9"/>
+<pinref part="U1" gate="G$1" pin="UART1_TX/PA9"/>
 </segment>
 </net>
 <net name="UART2_DE2" class="0">
@@ -12051,18 +12045,18 @@ RXD
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,2.54,-7.62,U10,VCC,+3V3,,,"/>
-<approved hash="104,1,2.54,-38.1,U11,VCC,+3V3,,,"/>
-<approved hash="104,1,2.54,-68.58,U12,VCC,+3V3,,,"/>
 <approved hash="104,1,2.54,-93.98,U13,VCC,+3V3,,,"/>
 <approved hash="104,1,104.14,43.18,U20,VSS,GND,,,"/>
 <approved hash="104,1,129.54,50.8,U20,VCC,+3V3,,,"/>
 <approved hash="104,1,104.14,22.86,U21,VSS,GND,,,"/>
 <approved hash="104,1,129.54,30.48,U21,VCC,+3V3,,,"/>
+<approved hash="104,1,2.54,-7.62,U10,VCC,+3V3,,,"/>
+<approved hash="104,1,2.54,-38.1,U11,VCC,+3V3,,,"/>
+<approved hash="104,1,2.54,-68.58,U12,VCC,+3V3,,,"/>
+<approved hash="206,1,30.48,-86.36,SPI_MISO,,,,,"/>
 <approved hash="206,1,30.48,0,SPI_MISO,,,,,"/>
 <approved hash="206,1,30.48,-30.48,SPI_MISO,,,,,"/>
 <approved hash="206,1,30.48,-60.96,SPI_MISO,,,,,"/>
-<approved hash="206,1,30.48,-86.36,SPI_MISO,,,,,"/>
 <approved hash="106,1,193.04,48.26,SWO,,,,,"/>
 <approved hash="106,1,190.5,104.14,USB_ID,,,,,"/>
 </errors>
