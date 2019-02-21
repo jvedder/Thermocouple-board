@@ -5101,6 +5101,108 @@ by exp-lbrs.ulp</description>
 <pad name="TIP" x="0.1" y="-9.29" drill="1.27" diameter="4.8" rot="R180"/>
 <pad name="RING" x="0.1" y="-3.39" drill="1.27" diameter="4.8" rot="R180"/>
 </package>
+<package name="1981584-1-LONG">
+<description>Micro USB Type-A/B Receptacle&lt;p&gt;
+Tyco Electronics</description>
+<wire x1="-3.9" y1="4.3" x2="3.9" y2="4.3" width="0.0508" layer="51"/>
+<wire x1="3.9" y1="4.3" x2="3.9" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="3.9" y1="-0.7" x2="3.6" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="3.6" y1="-0.7" x2="3.1" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="3.1" y1="-0.7" x2="3.1" y2="-1.1" width="0.0508" layer="51"/>
+<wire x1="3.1" y1="-1.1" x2="2.9" y2="-1.3" width="0.0508" layer="51" curve="-90"/>
+<wire x1="2.9" y1="-1.3" x2="-2.9" y2="-1.3" width="0.0508" layer="51"/>
+<wire x1="-2.9" y1="-1.3" x2="-3.1" y2="-1.1" width="0.0508" layer="51" curve="-90"/>
+<wire x1="-3.1" y1="-1.1" x2="-3.1" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="-3.1" y1="-0.7" x2="-3.6" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="-3.6" y1="-0.7" x2="-3.9" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="-3.9" y1="-0.7" x2="-3.9" y2="4.3" width="0.0508" layer="51"/>
+<wire x1="2.9" y1="-1.2" x2="-2.9" y2="-1.2" width="0.0508" layer="51"/>
+<wire x1="-2.9" y1="-1.2" x2="-3.1" y2="-1.1" width="0.0508" layer="51" curve="-67.380135"/>
+<wire x1="3.1" y1="-1.1" x2="2.9" y2="-1.2" width="0.0508" layer="51" curve="-53.130102"/>
+<wire x1="3.85" y1="0" x2="-3.85" y2="0" width="0" layer="51"/>
+<wire x1="-4.25" y1="-1.2" x2="-4.05" y2="-1.35" width="0.0508" layer="51"/>
+<wire x1="-4.05" y1="-1.35" x2="-3.6574" y2="-0.8702" width="0.0508" layer="51"/>
+<wire x1="-3.6574" y1="-0.8702" x2="-3.6" y2="-0.7093" width="0.0508" layer="51" curve="39.301204"/>
+<wire x1="-3.6" y1="-0.7093" x2="-3.6" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="-4.25" y1="-1.2" x2="-3.9307" y2="-0.7895" width="0.0508" layer="51"/>
+<wire x1="-3.9307" y1="-0.7895" x2="-3.9" y2="-0.7" width="0.0508" layer="51" curve="37.895357"/>
+<wire x1="4.25" y1="-1.2" x2="4.05" y2="-1.35" width="0.0508" layer="51"/>
+<wire x1="4.05" y1="-1.35" x2="3.6574" y2="-0.8702" width="0.0508" layer="51"/>
+<wire x1="3.6574" y1="-0.8702" x2="3.6" y2="-0.7093" width="0.0508" layer="51" curve="-39.301204"/>
+<wire x1="3.6" y1="-0.7093" x2="3.6" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="4.25" y1="-1.2" x2="3.9307" y2="-0.7895" width="0.0508" layer="51"/>
+<wire x1="3.9307" y1="-0.7895" x2="3.9" y2="-0.7" width="0.0508" layer="51" curve="-37.922374"/>
+<wire x1="-4.05" y1="0.1" x2="-4.05" y2="0.55" width="0.2032" layer="27"/>
+<wire x1="-4.05" y1="2.35" x2="-4.05" y2="2.85" width="0.2032" layer="27"/>
+<wire x1="4.05" y1="0.1" x2="4.05" y2="0.55" width="0.2032" layer="27"/>
+<wire x1="4.05" y1="2.35" x2="4.05" y2="2.85" width="0.2032" layer="27"/>
+<wire x1="-1.75" y1="4.45" x2="-2.15" y2="4.45" width="0.2032" layer="27"/>
+<wire x1="1.75" y1="4.45" x2="2.15" y2="4.45" width="0.2032" layer="27"/>
+<smd name="1" x="-1.3" y="4.425" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="4.425" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="4.425" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="4.425" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="4.425" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="M1" x="-1.15" y="1.45" dx="1.8" dy="1.8" layer="1"/>
+<smd name="M2" x="1.15" y="1.45" dx="1.8" dy="1.8" layer="1"/>
+<smd name="S1" x="-3.75" y="1.45" dx="2.3" dy="1.3" layer="1"/>
+<smd name="S2" x="3.75" y="1.45" dx="2.3" dy="1.3" layer="1"/>
+<smd name="S3" x="-3.2" y="3.885" dx="1.6" dy="1.6" layer="1"/>
+<smd name="S4" x="3.2" y="3.885" dx="1.6" dy="1.6" layer="1"/>
+<text x="-4.49" y="2.6" size="1.016" layer="25" font="vector" ratio="18" rot="R90">&gt;NAME</text>
+<text x="5.2" y="2.6" size="0.8128" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="1981584-1">
+<description>Micro USB Type-A/B Receptacle&lt;p&gt;
+Tyco Electronics</description>
+<wire x1="-3.9" y1="4.3" x2="3.9" y2="4.3" width="0.0508" layer="51"/>
+<wire x1="3.9" y1="4.3" x2="3.9" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="3.9" y1="-0.7" x2="3.6" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="3.6" y1="-0.7" x2="3.1" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="3.1" y1="-0.7" x2="3.1" y2="-1.1" width="0.0508" layer="51"/>
+<wire x1="3.1" y1="-1.1" x2="2.9" y2="-1.3" width="0.0508" layer="51" curve="-90"/>
+<wire x1="2.9" y1="-1.3" x2="-2.9" y2="-1.3" width="0.0508" layer="51"/>
+<wire x1="-2.9" y1="-1.3" x2="-3.1" y2="-1.1" width="0.0508" layer="51" curve="-90"/>
+<wire x1="-3.1" y1="-1.1" x2="-3.1" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="-3.1" y1="-0.7" x2="-3.6" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="-3.6" y1="-0.7" x2="-3.9" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="-3.9" y1="-0.7" x2="-3.9" y2="4.3" width="0.0508" layer="51"/>
+<wire x1="2.9" y1="-1.2" x2="-2.9" y2="-1.2" width="0.0508" layer="51"/>
+<wire x1="-2.9" y1="-1.2" x2="-3.1" y2="-1.1" width="0.0508" layer="51" curve="-67.380135"/>
+<wire x1="3.1" y1="-1.1" x2="2.9" y2="-1.2" width="0.0508" layer="51" curve="-53.130102"/>
+<wire x1="3.85" y1="0" x2="-3.85" y2="0" width="0" layer="51"/>
+<wire x1="-4.25" y1="-1.2" x2="-4.05" y2="-1.35" width="0.0508" layer="51"/>
+<wire x1="-4.05" y1="-1.35" x2="-3.6574" y2="-0.8702" width="0.0508" layer="51"/>
+<wire x1="-3.6574" y1="-0.8702" x2="-3.6" y2="-0.7093" width="0.0508" layer="51" curve="39.301204"/>
+<wire x1="-3.6" y1="-0.7093" x2="-3.6" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="-4.25" y1="-1.2" x2="-3.9307" y2="-0.7895" width="0.0508" layer="51"/>
+<wire x1="-3.9307" y1="-0.7895" x2="-3.9" y2="-0.7" width="0.0508" layer="51" curve="37.895357"/>
+<wire x1="4.25" y1="-1.2" x2="4.05" y2="-1.35" width="0.0508" layer="51"/>
+<wire x1="4.05" y1="-1.35" x2="3.6574" y2="-0.8702" width="0.0508" layer="51"/>
+<wire x1="3.6574" y1="-0.8702" x2="3.6" y2="-0.7093" width="0.0508" layer="51" curve="-39.301204"/>
+<wire x1="3.6" y1="-0.7093" x2="3.6" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="4.25" y1="-1.2" x2="3.9307" y2="-0.7895" width="0.0508" layer="51"/>
+<wire x1="3.9307" y1="-0.7895" x2="3.9" y2="-0.7" width="0.0508" layer="51" curve="-37.922374"/>
+<wire x1="-4.05" y1="0.1" x2="-4.05" y2="0.55" width="0.2032" layer="27"/>
+<wire x1="-4.05" y1="2.35" x2="-4.05" y2="2.85" width="0.2032" layer="27"/>
+<wire x1="4.05" y1="0.1" x2="4.05" y2="0.55" width="0.2032" layer="27"/>
+<wire x1="4.05" y1="2.35" x2="4.05" y2="2.85" width="0.2032" layer="27"/>
+<wire x1="-1.75" y1="4.45" x2="-2.15" y2="4.45" width="0.2032" layer="27"/>
+<wire x1="1.75" y1="4.45" x2="2.15" y2="4.45" width="0.2032" layer="27"/>
+<smd name="1" x="-1.3" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="M1" x="-1.15" y="1.45" dx="1.8" dy="1.8" layer="1"/>
+<smd name="M2" x="1.15" y="1.45" dx="1.8" dy="1.8" layer="1"/>
+<smd name="S1" x="-3.75" y="1.45" dx="2.3" dy="1.3" layer="1"/>
+<smd name="S2" x="3.75" y="1.45" dx="2.3" dy="1.3" layer="1"/>
+<smd name="S3" x="-3.2" y="3.885" dx="1.6" dy="1.6" layer="1"/>
+<smd name="S4" x="3.2" y="3.885" dx="1.6" dy="1.6" layer="1"/>
+<text x="-4.49" y="2.6" size="1.016" layer="25" font="vector" ratio="18" rot="R90">&gt;NAME</text>
+<text x="5.2" y="2.6" size="0.8128" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="1X2">
@@ -5262,6 +5364,22 @@ by exp-lbrs.ulp</description>
 <pin name="TIP" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
 <pin name="RING" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
 <pin name="RING_SW" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+<symbol name="USB-5P-4S">
+<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="7.62" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.1524" layer="94"/>
+<pin name="D+" x="-7.62" y="0" length="short" direction="pas"/>
+<pin name="D-" x="-7.62" y="2.54" length="short" direction="pas"/>
+<pin name="GND" x="-7.62" y="-5.08" length="short" direction="pas"/>
+<pin name="ID" x="-7.62" y="-2.54" length="short" direction="pas"/>
+<pin name="S1" x="-2.54" y="-10.16" visible="off" length="point" direction="pas" rot="R90"/>
+<pin name="VBUS" x="-7.62" y="5.08" length="short" direction="pas"/>
+<text x="7.62" y="-3.175" size="2.54" layer="94" ratio="10" rot="R90">USB</text>
+<text x="-5.08" y="8.89" size="2.54" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96" font="vector" ratio="10">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5575,6 +5693,44 @@ by exp-lbrs.ulp</description>
 <connect gate="G$1" pin="RING" pad="RING"/>
 <connect gate="G$1" pin="RING_SW" pad="RING_SW"/>
 <connect gate="G$1" pin="TIP" pad="TIP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1981584-1" prefix="J">
+<description>Receptacle, micro-USB, type A/B&lt;p&gt;
+Tyco Electronics</description>
+<gates>
+<gate name="G$1" symbol="USB-5P-4S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LONGPADS" package="1981584-1-LONG">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="S1" pad="S1"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFPN" value="" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="1981584-1">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="S1" pad="S1"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9255,120 +9411,6 @@ MCP2551
 </deviceset>
 </devicesets>
 </library>
-<library name="audio amplifier example" urn="urn:adsk.eagle:library:970892">
-<description>
-</description>
-<packages>
-<package name="1981584-1" urn="urn:adsk.eagle:footprint:970898/1" library_version="4">
-<description>Micro USB Type-A/B Receptacle&lt;p&gt;
-Tyco Electronics</description>
-<wire x1="-3.9" y1="4.3" x2="3.9" y2="4.3" width="0.0508" layer="51"/>
-<wire x1="3.9" y1="4.3" x2="3.9" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="3.9" y1="-0.7" x2="3.6" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="3.6" y1="-0.7" x2="3.1" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="3.1" y1="-0.7" x2="3.1" y2="-1.1" width="0.0508" layer="51"/>
-<wire x1="3.1" y1="-1.1" x2="2.9" y2="-1.3" width="0.0508" layer="51" curve="-90"/>
-<wire x1="2.9" y1="-1.3" x2="-2.9" y2="-1.3" width="0.0508" layer="51"/>
-<wire x1="-2.9" y1="-1.3" x2="-3.1" y2="-1.1" width="0.0508" layer="51" curve="-90"/>
-<wire x1="-3.1" y1="-1.1" x2="-3.1" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="-3.1" y1="-0.7" x2="-3.6" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="-3.6" y1="-0.7" x2="-3.9" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="-3.9" y1="-0.7" x2="-3.9" y2="4.3" width="0.0508" layer="51"/>
-<wire x1="2.9" y1="-1.2" x2="-2.9" y2="-1.2" width="0.0508" layer="51"/>
-<wire x1="-2.9" y1="-1.2" x2="-3.1" y2="-1.1" width="0.0508" layer="51" curve="-67.380135"/>
-<wire x1="3.1" y1="-1.1" x2="2.9" y2="-1.2" width="0.0508" layer="51" curve="-53.130102"/>
-<wire x1="3.85" y1="0" x2="-3.85" y2="0" width="0" layer="51"/>
-<wire x1="-4.25" y1="-1.2" x2="-4.05" y2="-1.35" width="0.0508" layer="51"/>
-<wire x1="-4.05" y1="-1.35" x2="-3.6574" y2="-0.8702" width="0.0508" layer="51"/>
-<wire x1="-3.6574" y1="-0.8702" x2="-3.6" y2="-0.7093" width="0.0508" layer="51" curve="39.301204"/>
-<wire x1="-3.6" y1="-0.7093" x2="-3.6" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="-4.25" y1="-1.2" x2="-3.9307" y2="-0.7895" width="0.0508" layer="51"/>
-<wire x1="-3.9307" y1="-0.7895" x2="-3.9" y2="-0.7" width="0.0508" layer="51" curve="37.895357"/>
-<wire x1="4.25" y1="-1.2" x2="4.05" y2="-1.35" width="0.0508" layer="51"/>
-<wire x1="4.05" y1="-1.35" x2="3.6574" y2="-0.8702" width="0.0508" layer="51"/>
-<wire x1="3.6574" y1="-0.8702" x2="3.6" y2="-0.7093" width="0.0508" layer="51" curve="-39.301204"/>
-<wire x1="3.6" y1="-0.7093" x2="3.6" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="4.25" y1="-1.2" x2="3.9307" y2="-0.7895" width="0.0508" layer="51"/>
-<wire x1="3.9307" y1="-0.7895" x2="3.9" y2="-0.7" width="0.0508" layer="51" curve="-37.922374"/>
-<wire x1="-4.05" y1="0.1" x2="-4.05" y2="0.55" width="0.2032" layer="27"/>
-<wire x1="-4.05" y1="2.35" x2="-4.05" y2="2.85" width="0.2032" layer="27"/>
-<wire x1="4.05" y1="0.1" x2="4.05" y2="0.55" width="0.2032" layer="27"/>
-<wire x1="4.05" y1="2.35" x2="4.05" y2="2.85" width="0.2032" layer="27"/>
-<wire x1="-1.75" y1="4.45" x2="-2.15" y2="4.45" width="0.2032" layer="27"/>
-<wire x1="1.75" y1="4.45" x2="2.15" y2="4.45" width="0.2032" layer="27"/>
-<smd name="1" x="-1.3" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="2" x="-0.65" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="3" x="0" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="4" x="0.65" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="5" x="1.3" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="M1" x="-1.15" y="1.45" dx="1.8" dy="1.8" layer="1"/>
-<smd name="M2" x="1.15" y="1.45" dx="1.8" dy="1.8" layer="1"/>
-<smd name="S1" x="-3.75" y="1.45" dx="2.3" dy="1.3" layer="1"/>
-<smd name="S2" x="3.75" y="1.45" dx="2.3" dy="1.3" layer="1"/>
-<smd name="S3" x="-3.2" y="3.885" dx="1.6" dy="1.6" layer="1"/>
-<smd name="S4" x="3.2" y="3.885" dx="1.6" dy="1.6" layer="1"/>
-<text x="-4.49" y="2.6" size="1.016" layer="25" font="vector" ratio="18" rot="R90">&gt;NAME</text>
-<text x="5.2" y="2.6" size="0.8128" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="1981584-1" urn="urn:adsk.eagle:package:970926/2" type="model" library_version="4">
-<description>Micro USB Type-A/B Receptacle
-Tyco Electronics</description>
-<packageinstances>
-<packageinstance name="1981584-1"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="USB-5P-4S" urn="urn:adsk.eagle:symbol:970897/1" library_version="4">
-<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="7.62" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.1524" layer="94"/>
-<pin name="D+" x="-7.62" y="0" length="short" direction="pas"/>
-<pin name="D-" x="-7.62" y="2.54" length="short" direction="pas"/>
-<pin name="GND" x="-7.62" y="-5.08" length="short" direction="pas"/>
-<pin name="ID" x="-7.62" y="-2.54" length="short" direction="pas"/>
-<pin name="S1" x="-2.54" y="-10.16" visible="off" length="point" direction="pas" rot="R90"/>
-<pin name="VBUS" x="-7.62" y="5.08" length="short" direction="pas"/>
-<text x="7.62" y="-3.175" size="2.54" layer="94" ratio="10" rot="R90">USB</text>
-<text x="-5.08" y="8.89" size="2.54" layer="95" font="vector" ratio="12">&gt;NAME</text>
-<text x="0" y="-10.16" size="1.778" layer="96" font="vector" ratio="10">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1981584-1" urn="urn:adsk.eagle:component:970942/2" prefix="J" library_version="4">
-<description>Receptacle, micro-USB, type A/B&lt;p&gt;
-Tyco Electronics</description>
-<gates>
-<gate name="G$1" symbol="USB-5P-4S" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1981584-1">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="S1" pad="S1"/>
-<connect gate="G$1" pin="VBUS" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:970926/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MFPN" value="" constant="no"/>
-<attribute name="PARTNO" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
 <description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
 This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
@@ -9939,7 +9981,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R30" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="+3V20" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V22" library="supply1" deviceset="+3V3" device=""/>
-<part name="J3" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="1981584-1" device="" package3d_urn="urn:adsk.eagle:package:970926/2"/>
+<part name="J3" library="Thermocouple-board" deviceset="1981584-1" device="LONGPADS"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="C40" library="adafruit" deviceset="C-US" device="C0805K" value="1uF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
