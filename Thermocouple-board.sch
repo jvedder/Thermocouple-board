@@ -10069,6 +10069,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="R40" library="adafruit" deviceset="R-US_" device="R0805" value="120"/>
 <part name="R41" library="adafruit" deviceset="R-US_" device="R0805" value="120"/>
+<part name="C70" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="10pF"/>
+<part name="GND40" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10680,6 +10682,13 @@ RXD
 <attribute name="NAME" x="301.2186" y="-34.29" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="296.418" y="-34.29" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="C70" gate="G$1" x="-12.7" y="121.92" smashed="yes">
+<attribute name="NAME" x="-11.684" y="122.555" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-11.684" y="117.729" size="1.778" layer="96"/>
+</instance>
+<instance part="GND40" gate="1" x="-12.7" y="114.3" smashed="yes">
+<attribute name="VALUE" x="-15.24" y="111.76" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10959,6 +10968,10 @@ RXD
 <pinref part="C71" gate="G$1" pin="2"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 <wire x1="60.96" y1="121.92" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C70" gate="G$1" pin="2"/>
+<pinref part="GND40" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SPI_CS0_N" class="0">
@@ -12019,12 +12032,16 @@ RXD
 <pinref part="J4" gate="G$1" pin="TIP"/>
 <pinref part="U70" gate="G$1" pin="IN"/>
 <wire x1="-33.02" y1="127" x2="-12.7" y2="127" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="127" x2="-12.7" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="124.46" x2="-12.7" y2="127" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="127" x2="-12.7" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="134.62" x2="-2.54" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R71" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="134.62" x2="12.7" y2="134.62" width="0.1524" layer="91"/>
 <junction x="-2.54" y="134.62"/>
 <label x="-27.94" y="127" size="1.778" layer="95"/>
+<pinref part="C70" gate="G$1" pin="1"/>
+<junction x="-12.7" y="127"/>
 </segment>
 </net>
 </nets>
