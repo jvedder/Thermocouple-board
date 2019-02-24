@@ -12180,7 +12180,7 @@ RXD
 <label x="167.64" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="UV" class="0">
 <segment>
 <pinref part="R71" gate="G$1" pin="2"/>
 <pinref part="R72" gate="G$1" pin="1"/>
@@ -12189,9 +12189,10 @@ RXD
 <pinref part="U70" gate="G$1" pin="ENUV"/>
 <wire x1="5.08" y1="124.46" x2="5.08" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="129.54" x2="12.7" y2="129.54" width="0.1524" layer="91"/>
+<label x="7.62" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="OVP" class="0">
 <segment>
 <pinref part="R72" gate="G$1" pin="2"/>
 <pinref part="R73" gate="G$1" pin="1"/>
@@ -12200,22 +12201,25 @@ RXD
 <pinref part="U70" gate="G$1" pin="OVP"/>
 <wire x1="7.62" y1="114.3" x2="7.62" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="124.46" x2="12.7" y2="124.46" width="0.1524" layer="91"/>
+<label x="7.62" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="ILIM" class="0">
 <segment>
 <pinref part="U70" gate="G$1" pin="ILIM"/>
 <wire x1="43.18" y1="119.38" x2="45.72" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R74" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="119.38" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
+<label x="45.72" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="SS" class="0">
 <segment>
 <pinref part="U70" gate="G$1" pin="SS"/>
 <wire x1="43.18" y1="124.46" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C72" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="124.46" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
+<label x="45.72" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWR_SRC" class="0">
@@ -12234,6 +12238,13 @@ RXD
 <junction x="-12.7" y="127"/>
 </segment>
 </net>
+<net name="FLT_N" class="0">
+<segment>
+<pinref part="U70" gate="G$1" pin="/FLT"/>
+<wire x1="43.18" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
+<label x="45.72" y="129.54" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -12246,6 +12257,7 @@ RXD
 <approved hash="104,1,10.16,-7.62,U10,VCC,+3V3,,,"/>
 <approved hash="104,1,10.16,-38.1,U11,VCC,+3V3,,,"/>
 <approved hash="104,1,10.16,-68.58,U12,VCC,+3V3,,,"/>
+<approved hash="106,1,43.18,129.54,FLT_N,,,,,"/>
 <approved hash="206,1,38.1,-86.36,SPI_MISO,,,,,"/>
 <approved hash="206,1,38.1,0,SPI_MISO,,,,,"/>
 <approved hash="206,1,38.1,-30.48,SPI_MISO,,,,,"/>
