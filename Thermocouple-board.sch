@@ -5211,6 +5211,36 @@ Tyco Electronics</description>
 <wire x1="-2.286" y1="1.27" x2="2.286" y2="1.27" width="0.127" layer="25"/>
 <wire x1="-2.286" y1="-1.27" x2="2.286" y2="-1.27" width="0.127" layer="25"/>
 </package>
+<package name="1X01_OVAL">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<pad name="1" x="0" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="1X01_ROUND">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.6764" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="1X01_ROUND_70">
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.778" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="1X01_ROUND_76">
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.9304" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="1X2">
@@ -5399,6 +5429,15 @@ Tyco Electronics</description>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="PINHD1">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5763,6 +5802,46 @@ Tyco Electronics</description>
 </gates>
 <devices>
 <device name="" package="HOLD_DOWN">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER-1X1" prefix="J">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X01_OVAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ROUND" package="1X01_ROUND">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="70MIL" package="1X01_ROUND_70">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="76MIL" package="1X01_ROUND_76">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -10114,6 +10193,10 @@ DIN A3, landscape with location and doc. field</description>
 <part name="MH14" library="Thermocouple-board" deviceset="HOLD_DOWN" device=""/>
 <part name="MH15" library="Thermocouple-board" deviceset="HOLD_DOWN" device=""/>
 <part name="MH16" library="Thermocouple-board" deviceset="HOLD_DOWN" device=""/>
+<part name="J20" library="Thermocouple-board" deviceset="HEADER-1X1" device=""/>
+<part name="J21" library="Thermocouple-board" deviceset="HEADER-1X1" device=""/>
+<part name="J22" library="Thermocouple-board" deviceset="HEADER-1X1" device=""/>
+<part name="GND41" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10768,6 +10851,21 @@ RXD
 <instance part="MH16" gate="G$1" x="-50.8" y="-88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="-50.8" y="-82.55" size="1.27" layer="95" rot="R90"/>
 </instance>
+<instance part="J20" gate="G$1" x="142.24" y="134.62" smashed="yes">
+<attribute name="NAME" x="144.78" y="135.255" size="1.778" layer="95"/>
+<attribute name="VALUE" x="144.78" y="132.08" size="1.778" layer="96"/>
+</instance>
+<instance part="J21" gate="G$1" x="142.24" y="127" smashed="yes">
+<attribute name="NAME" x="144.78" y="127.635" size="1.778" layer="95"/>
+<attribute name="VALUE" x="144.78" y="124.46" size="1.778" layer="96"/>
+</instance>
+<instance part="J22" gate="G$1" x="142.24" y="119.38" smashed="yes">
+<attribute name="NAME" x="144.78" y="120.015" size="1.778" layer="95"/>
+<attribute name="VALUE" x="144.78" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="GND41" gate="1" x="129.54" y="114.3" smashed="yes">
+<attribute name="VALUE" x="127" y="111.76" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11051,6 +11149,20 @@ RXD
 <segment>
 <pinref part="C70" gate="G$1" pin="2"/>
 <pinref part="GND40" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J22" gate="G$1" pin="1"/>
+<pinref part="GND41" gate="1" pin="GND"/>
+<wire x1="139.7" y1="119.38" x2="129.54" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="119.38" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
+<junction x="129.54" y="119.38"/>
+<pinref part="J21" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="127" x2="129.54" y2="127" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="127" x2="129.54" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="J20" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="134.62" x2="129.54" y2="127" width="0.1524" layer="91"/>
+<junction x="129.54" y="127"/>
 </segment>
 </net>
 <net name="SPI_CS0_N" class="0">
