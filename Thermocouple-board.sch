@@ -10157,7 +10157,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="MH3" library="Thermocouple-board" deviceset="MTG_HOLE" device="_4-40" value="4-40"/>
 <part name="MH4" library="Thermocouple-board" deviceset="MTG_HOLE" device="_4-40" value="4-40"/>
 <part name="R60" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
-<part name="R61" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
+<part name="R61" library="adafruit" deviceset="R-US_" device="R0805" value="30.1K"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="0.1uF"/>
 <part name="J7" library="Thermocouple-board" deviceset="HEADER-1X6" device="" value="UART"/>
@@ -10170,16 +10170,16 @@ DIN A3, landscape with location and doc. field</description>
 <part name="U70" library="Thermocouple-board" deviceset="TPS25921" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
-<part name="R71" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
-<part name="R72" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
-<part name="R73" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
-<part name="R74" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
-<part name="C72" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="10pF"/>
-<part name="C71" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="10pF"/>
+<part name="R71" library="adafruit" deviceset="R-US_" device="R0805" value="73.2K"/>
+<part name="R72" library="adafruit" deviceset="R-US_" device="R0805" value="22.1K"/>
+<part name="R73" library="adafruit" deviceset="R-US_" device="R0805" value="11.5K"/>
+<part name="R74" library="adafruit" deviceset="R-US_" device="R0805" value="93.1K"/>
+<part name="C72" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="0.1uF"/>
+<part name="C71" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="10uF"/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="R40" library="adafruit" deviceset="R-US_" device="R0805" value="120"/>
 <part name="R41" library="adafruit" deviceset="R-US_" device="R0805" value="120"/>
-<part name="C70" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="10pF"/>
+<part name="C70" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="1uF"/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="MH5" library="Thermocouple-board" deviceset="HOLD_DOWN" device=""/>
 <part name="MH6" library="Thermocouple-board" deviceset="HOLD_DOWN" device=""/>
