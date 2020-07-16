@@ -48,7 +48,7 @@ tied to the PCB for strain relief.
 
 ## License: ##
 
-[MIT License](../master/LICENSE)
+[MIT License](../master/LICENSE.txt)
 
 ----------------------
 
